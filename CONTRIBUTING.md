@@ -31,11 +31,11 @@ En costrucción
 
 2.2 Clonar el proyecto forkeado desde tu cuenta GitHub. Ejemplo:
   ```console
-  https://github.com/wcadena/gestor-inventarios-it.git
+  https://github.com/isairey/gestor-inventarios-it.git
   ```
 2.3 Agregar el repositorio padre como origen remoto. Ejemplo:
   ```console
-  git remote add upstream https://github.com/wcadena/gestor-inventarios-it.git
+  git remote add upstream https://github.com/isairey/gestor-inventarios-it.git
   ```
 2.4 Luego de clonado el proyecto, crear la rama beta para empezar a trabajar. Ejemplo:
   ```console
@@ -130,7 +130,7 @@ contáctese con nosotros al correo wcadena@outlook.com
 
 ## Traducción
 
-Las traducciones se hacen a partir del [repo original](https://github.com/wcadena/gestor-inventarios-it). Los aportes de traducción pueden ser de diferentes maneras:
+Las traducciones se hacen a partir del [repo original](https://github.com/isairey/gestor-inventarios-it). Los aportes de traducción pueden ser de diferentes maneras:
 
  1. Traducir los términos pendientes o nuevos.
  2. Corregir traducciones existentes.
@@ -141,7 +141,7 @@ Sin embargo, al traducir queremos utilizar un español internacional.
 
 ## Flujo de Trabajo
 
- 1. Busca una traducción pendiente en la columna TODO: [ver traducciones pendientes](https://github.com/wcadena/gestor-inventarios-it/pendientes).
+ 1. Busca una traducción pendiente en la columna TODO: [ver traducciones pendientes](https://github.com/isairey/gestor-inventarios-it/pendientes).
  2. Asegúrate que nadie esté trabajando en él (te puedes dar cuenta viendo que no haya nadie asignado ni nadie ha comentado que está trabajando).
  3. Sigue las reglas descritas abajo y crea tu PR.
 

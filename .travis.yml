@@ -1,0 +1,24 @@
+language: php
+
+services:
+  - mysql
+
+php:
+  - 7.2
+
+before_script:
+  - cp .env.travis .env
+  - cp .env.travis .env.testing
+  - sleep 15
+  - mysql -e 'create database inventarios_2;'
+  - composer self-update
+  - composer install --no-interaction
+  - php artisan migrate
+  - php artisan db:seed
+
+script:
+  - vendor/bin/phpunit
+#  - codecov
+env:
+    global:
+        - CODECOV_TOKEN: 4b7c0b42-504a-4564-ba5d-d31c344d63ca

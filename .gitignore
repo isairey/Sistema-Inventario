@@ -1,0 +1,15 @@
+/node_modules
+/node_modules_otro
+/public/hot
+/public/storage
+/public/.well-known
+/storage/*.key
+/storage/*files
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+.env
+composer.lock

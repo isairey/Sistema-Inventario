@@ -1,43 +1,116 @@
-[![BCH compliance](https://bettercodehub.com/edge/badge/wcadena/gestor-inventarios-it?branch=master)](https://bettercodehub.com/)
-[![StyleCI](https://github.styleci.io/repos/98135155/shield?branch=master)](https://github.styleci.io/repos/98135155)
-[![Build Status](https://travis-ci.org/wcadena/gestor-inventarios-it.svg?branch=master)](https://travis-ci.org/wcadena/gestor-inventarios-it)
-# Sistema de Gestión de Inventarios de Activos Fijos con Laravel 5.8
+# 📦 Sistema de Gestión de Inventarios de Activos Fijos
 
-Sistema de gestión de inventarios de Activos Fijos con Laravel 5.8 , proyectado para RestFull, uso de Progressive web application PWA y JAVA
-Te invito a que veas la parte del wiki que aumenté:
-[Instalación](https://github.com/wcadena/gestor-inventarios-it/wiki/Instalaci%C3%B3n)
+<p align="center">
+  <img src="https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Laravel-5.8-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  <img src="https://img.shields.io/badge/PWA-Soportado-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/API-REST-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge">
+</p>
 
-En linux puedes usar(Recomiendo Homestead):
-  * cp .env.travis .env
-  * cp .env.travis .env.testing
-  ** aqui pones los datos de tu base de datos, correo y otros
-  * sleep 15
-  * mysql -e 'create database inventarios_2;'
-  * composer self-update
-  * composer install --no-interaction
-  * php artisan migrate
-  * php artisan db:seed
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-Frontend-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</p>
 
-## Modulos existentes
+---
 
-### Usuarios
-Administre los usuarios del sistema, con cuatro perfiles:
-#### -Registrado
-Usuario que entra por primera vez, no tiene acceso a nada
-#### -Usuario
-Solo puede ver su perfil y los custodios y sus reportes
-#### -Administrador
-Administra la aplicacion
-#### -SYSTEM
-Administra valores de la aplicacion de sistema
+## 🏥 Descripción
 
+Sistema de gestión de inventarios de **activos fijos** desarrollado con **Laravel 5.8**, diseñado para administrar equipos, usuarios y movimientos dentro de una organización.
 
-### Equipos
-Administra los activos , CRUD de activos
+El sistema está preparado para:
+- 🌐 Arquitectura **RESTful**
+- 📱 Uso como **Progressive Web App (PWA)**
+- ⚡ Integración con tecnologías modernas
 
-### Modelos
-Administra los modelos
+---
 
-### Movimiento
-Administra Movimiento de Activos.
+## 🚀 Características Principales
 
+- Gestión completa de activos fijos  
+- Sistema multiusuario con roles  
+- API REST integrada  
+- Soporte para PWA  
+- Control de movimientos de inventario  
+- Arquitectura escalable  
+
+---
+
+## 👥 Roles del Sistema
+
+### 👤 Registrado
+- Usuario sin permisos iniciales  
+
+---
+
+### 👨‍💻 Usuario
+- Consulta de perfil  
+- Visualización de reportes  
+
+---
+
+### 🔧 Administrador
+- Control total del sistema  
+- Gestión de usuarios e inventario  
+
+---
+
+### ⚙️ SYSTEM
+- Configuración global del sistema  
+
+---
+
+## 📦 Módulos del Sistema
+
+### 🧑‍💼 Usuarios
+- Gestión de usuarios y roles  
+
+---
+
+### 💻 Equipos
+- CRUD de activos  
+- Control de inventario  
+
+---
+
+### 🏷️ Modelos
+- Administración de modelos de equipos  
+
+---
+
+### 🔄 Movimientos
+- Registro de entradas y salidas  
+- Control de historial de activos  
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- PHP  
+- Laravel 5.8  
+- MySQL  
+- JavaScript  
+- PWA  
+
+---
+
+## ⚙️ Instalación
+
+```bash
+cp .env.travis .env
+cp .env.travis .env.testing
+
+# Configurar base de datos
+
+sleep 15
+
+mysql -e 'create database inventarios_2;'
+
+composer self-update
+composer install --no-interaction
+
+php artisan migrate
+php artisan db:seed
